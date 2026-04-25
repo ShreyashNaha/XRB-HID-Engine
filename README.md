@@ -22,7 +22,9 @@ The output is a fully interactive **Hardness-Intensity Diagram (HID)** dashboard
 ---
 
 ## User Interface
+
 <img width="1056" height="779" alt="Screenshot_20260425_182756" src="https://github.com/user-attachments/assets/5a49e50d-92ad-476c-b11a-492560ec5675" />
+
 <img width="1022" height="781" alt="Screenshot_20260425_182727" src="https://github.com/user-attachments/assets/ae38c286-34f5-4598-8ae6-ffcaf448aaac" />
 
 ## Table of Contents
