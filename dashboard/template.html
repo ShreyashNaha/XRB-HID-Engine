@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsupervised Black Hole & Neutron Star XRB HID Clustering Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Unsupervised Black Hole & Neutron Star XRB HID Clustering Dashboard</h1>
+        <div class="timestamp">Last Updated: {{ TIMESTAMP }}</div>
+    </div>
+
+    <div class="controls">
+        <label for="target-selector" style="margin-right: 10px; font-weight: bold;">Select Target System:</label>
+        <select id="target-selector" onchange="updatePlot()">
+            {{ DROPDOWN_OPTIONS }}
+        </select>
+    </div>
+
+    <iframe id="plot-frame" src="{{ DEFAULT_PLOT }}"></iframe>
+
+    <script>
+        function updatePlot() {
+            var selector = document.getElementById('target-selector');
+            var iframe = document.getElementById('plot-frame');
+            iframe.src = selector.value;
+        }
+    </script>
+</body>
+</html>
