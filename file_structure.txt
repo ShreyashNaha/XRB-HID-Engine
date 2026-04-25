@@ -1,0 +1,24 @@
+xrb-hid-engine/
+│
+├── .github/
+│   └── workflows/              # CI/CD automation (GitHub Actions)
+│
+├── src/
+│   ├── catalog_manager.py      # NASA/JAXA transient registry scanner
+│   ├── data_loader.py          # Raw telemetry acquisition & local cache
+│   ├── preprocessor.py         # 3σ SNR filter + MJD temporal alignment
+│   ├── model.py                # GMM unsupervised clustering
+│   └── visualization.py        # Plotly HID generation + HTML dashboard
+│
+├── data/
+│   ├── raw/                    # Cached satellite telemetry (.dat / .txt)
+│   └── catalogs/
+│       └── master_catalog.csv  # Registry of all detected XRB systems
+│
+├── dashboard/
+│   ├── assets/                 # Generated interactive Plotly HTML files
+│   └── template.html           # Dashboard UI blueprint
+│
+├── run_pipeline.py             # Master orchestrator (colored terminal UI)
+├── requirements.txt            # Python dependency manifest
+└── .gitignore                  # Data and environment exclusions

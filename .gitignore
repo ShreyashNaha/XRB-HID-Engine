@@ -1,0 +1,43 @@
+# ============================================================
+#  XRB-HID Engine — .gitignore
+# ============================================================
+
+# --- Auto-generated pipeline outputs ---
+data/raw/
+data/processed/
+data/catalogs/master_catalog.csv
+dashboard/assets/
+dashboard/css/style.css
+dashboard/index.html
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# --- Virtual Environments ---
+venv/
+env/
+.env
+xrb_engine/
+xrb_hid_env/
+
+# --- Jupyter Notebooks (if any) ---
+.ipynb_checkpoints/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Logs ---
+*.log
