@@ -9,6 +9,7 @@
 [![Plotly](https://img.shields.io/badge/Viz-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)](https://plotly.com/)
 [![Data: NASA Swift-BAT](https://img.shields.io/badge/Data-NASA%20Swift--BAT-0b3d91?style=flat-square)](https://swift.gsfc.nasa.gov/results/transients/)
 [![Data: JAXA MAXI](https://img.shields.io/badge/Data-JAXA%20MAXI-c0392b?style=flat-square)](http://maxi.riken.jp/)
+[![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-Visit%20Now-2d6a4f?style=flat-square)](https://shreyashnaha.github.io/XRB-HID-Engine/)
 
 </div>
 
